@@ -19,9 +19,7 @@ saudacao()
 
 
 
-
-def soma_numeros (a, b):
-    return a + b
-# Exemplo de chamada
-resultado = soma_numeros(5, 7)
-print("A soma é:", resultado)
+def soma(a, b):
+  return a + b
+resultado = soma(2, 3)
+print("a soma é", resultado)

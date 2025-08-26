@@ -76,4 +76,3 @@ for linha in matriz_2 :
 for i in range(3): 
     for j in range(3):
         print(f"Elemento ({i},{j}) >>> {matriz_2 [i][j]:02}")
-

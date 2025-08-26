@@ -2,7 +2,7 @@
 # Exercício 4, 5, 6:
 ##
 
-#Exercício 5:
+#Exercício 6:
 
 import random
 matriz=[]

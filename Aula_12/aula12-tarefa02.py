@@ -1,3 +1,7 @@
+##
+# Exercicio 1
+##
+
 class Carro:
     def __init__ (self, marca, modelo, ano):
         self.marca = marca
@@ -81,3 +85,24 @@ class Carro:
     def reboque_cancelar(self):
         if self.reboque:
             print(f"\n\t Seu reboque foi cancelado!")
+
+##
+# Exercicio 2
+##
+
+class Carro:
+    def __init__(self, placa, modelo):
+        self.placa = placa
+        self.modelo = modelo
+
+    def exibir_info(self):
+        return f"placa: {self.placa} modelo: {self.modelo}"
+
+colecao = {
+    "RKT4J29": Carro("RKT4J29", "G63"),
+    "RHL4G56": Carro("RHL4G56", "Etios"),
+    "QWP4T10": Carro("QWP4T10", "Virtus")
+}
+
+for placa, carro in colecao.items():
+    print(carro.exibir_info())
